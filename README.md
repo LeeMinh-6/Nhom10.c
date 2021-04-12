@@ -1,1 +1,0 @@
-# leeminh.c
