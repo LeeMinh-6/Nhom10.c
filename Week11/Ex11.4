@@ -1,0 +1,16 @@
+#include<stdio.h>
+void dao(int *a,int *b,int *c){
+    int dem;
+dem=*a;
+*a=*b;
+*b=*c;
+*c=dem;
+}
+int main(){
+int a,b,c;
+printf("Nhập 3 số : ");
+scanf("%d%d%d",&a,&b,&c);
+dao(&a,&b,&c);
+printf("3 số a,b,c lúc sau :%d %d %d ",a,b,c);
+return 0;
+}

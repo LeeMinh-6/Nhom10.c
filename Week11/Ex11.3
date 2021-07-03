@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    float* prt;
+    printf("Nhap vao 3 so:\n");
+    scanf("%f %f %f",prt,prt+1,prt+2);
+    *prt=*prt+100;
+    *(prt+1)=*(prt+1)+100;
+    *(prt+2)=*(prt+2)+100;
+    printf("Gia tri luc sau la:%.2f %.2f %.2f\n",*prt,*prt+1,*prt+2);
+}
